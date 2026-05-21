@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo Manwil</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <!-- INICIO -->
+    <section id="inicio" class="inicio">
+        <img src="imagenes/logomanwil.png" alt="Manwil" class="logo-inicio">
+        <button id="btn-comenzar" class="btn-inicio">Comenzar</button>
+    </section>
+
+    <!-- CATALOGO -->
+    <section id="catalogo" class="catalogo oculta">
+        <div class="logo-catalogo">
+            <img src="imagenes/logomanwil.png" alt="Manwil">
+        </div>
+
+        <!-- Botones de categorías -->
+        <div id="botones-categorias" class="botones-categorias"></div>
+
+        <!-- Productos -->
+        <div id="categorias" class="categorias"></div>
+    </section>
+
+    <!-- CARRITO FLOTANTE -->
+    <div id="carrito-flotante" class="carrito-flotante">
+        <img src="iconos/carrito.png" id="btn-carrito" alt="Carrito">
+        <div id="lista-carrito" class="lista-carrito oculta">
+            <ul id="items-carrito"></ul>
+            <p>Total: Bs <span id="total-carrito">0</span></p>
+            <button id="limpiar-carrito">Limpiar lista</button>
+            <button id="enviar-pedido">Enviar pedido</button>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="redes-texto">Síguenos en nuestras redes sociales</div>
+        <div class="redes-icons">
+            <a href="https://wa.me/59165545622" target="_blank"><img src="iconos/whatsapp.png" alt="WhatsApp"></a>
+            <a href="https://www.facebook.com/TuPagina" target="_blank"><img src="iconos/facebook.png" alt="Facebook"></a>
+            <a href="https://www.tiktok.com/@TuUsuario" target="_blank"><img src="iconos/tiktok.png" alt="TikTok"></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
