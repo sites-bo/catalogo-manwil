@@ -43,16 +43,16 @@ const productos = [
   // ==========================
   // MORTADELAS Y JAMONES
   // ==========================
-  { categoria:'MORTADELAS Y JAMONES', nombre:'JAMON SANDWICHERO EN BARRA', foto:'imagenes/mtbr-001.webp', peso:'4 Kg', codigo:'MTBR-001', precio:52 },
-  { categoria:'MORTADELAS Y JAMONES', nombre:'JAMONADA EN BARRA', foto:'imagenes/mtbr-002.webp', peso:'4 Kg', codigo:'MTBR-002', precio:43 },
-  { categoria:'MORTADELAS Y JAMONES', nombre:'MORTADELA QUESO DE CHANCHO EN BARRA', foto:'imagenes/mtbr-003.webp', peso:'4 Kg', codigo:'MTBR-003', precio:43 },
-  { categoria:'MORTADELAS Y JAMONES', nombre:'MORTADELA CERVECERO EN BARRA', foto:'imagenes/mtbr-004.webp', peso:'3.5 Kg', codigo:'MTBR-004', precio:42 },
-  { categoria:'MORTADELAS Y JAMONES', nombre:'MORTADELA DE POLLO EN BARRA', foto:'imagenes/mtbr-005.webp', peso:'3.5 Kg', codigo:'MTBR-005', precio:42 },
-  { categoria:'MORTADELAS Y JAMONES', nombre:'MORTADELA LIONEZA EN BARRA', foto:'imagenes/mtbr-006.webp', peso:'3.5 Kg', codigo:'MTBR-006', precio:42 },
-  { categoria:'MORTADELAS Y JAMONES', nombre:'MORTADELA PASTEL DE CABEZA EN BARRA', foto:'imagenes/mtbr-007.webp', peso:'3.5 Kg', codigo:'MTBR-007', precio:42 },
-  { categoria:'MORTADELAS Y JAMONES', nombre:'MORTADELA PICANTE EN BARRA', foto:'imagenes/mtbr-008.webp', peso:'3.5 Kg', codigo:'MTBR-008', precio:42 },
-  { categoria:'MORTADELAS Y JAMONES', nombre:'MORTADELA PRIMAVERA EN BARRA', foto:'imagenes/mtbr-009.webp', peso:'4 Kg', codigo:'MTBR-009', precio:43 },
-  { categoria:'MORTADELAS Y JAMONES', nombre:'MORTADELA CAZADOR EN BARRA', foto:'imagenes/mtbr-010.webp', peso:'3.5 Kg', codigo:'MTBR-010', precio:42 },
+  { categoria:'MORTADELAS Y JAMONES', nombre:'JAMON SANDWICHERO EN BARRA', foto:'imagenes/mtbr-001.webp', peso:'4 Kg≈', codigo:'MTBR-001', precio:52 },
+  { categoria:'MORTADELAS Y JAMONES', nombre:'JAMONADA EN BARRA', foto:'imagenes/mtbr-002.webp', peso:'4 Kg≈', codigo:'MTBR-002', precio:43 },
+  { categoria:'MORTADELAS Y JAMONES', nombre:'MORTADELA QUESO DE CHANCHO EN BARRA', foto:'imagenes/mtbr-003.webp', peso:'4 Kg≈', codigo:'MTBR-003', precio:43 },
+  { categoria:'MORTADELAS Y JAMONES', nombre:'MORTADELA CERVECERO EN BARRA', foto:'imagenes/mtbr-004.webp', peso:'3.5 Kg≈', codigo:'MTBR-004', precio:42 },
+  { categoria:'MORTADELAS Y JAMONES', nombre:'MORTADELA DE POLLO EN BARRA', foto:'imagenes/mtbr-005.webp', peso:'3.5 Kg≈', codigo:'MTBR-005', precio:42 },
+  { categoria:'MORTADELAS Y JAMONES', nombre:'MORTADELA LIONEZA EN BARRA', foto:'imagenes/mtbr-006.webp', peso:'3.5 Kg≈', codigo:'MTBR-006', precio:42 },
+  { categoria:'MORTADELAS Y JAMONES', nombre:'MORTADELA PASTEL DE CABEZA EN BARRA', foto:'imagenes/mtbr-007.webp', peso:'3.5 Kg≈', codigo:'MTBR-007', precio:42 },
+  { categoria:'MORTADELAS Y JAMONES', nombre:'MORTADELA PICANTE EN BARRA', foto:'imagenes/mtbr-008.webp', peso:'3.5 Kg≈', codigo:'MTBR-008', precio:42 },
+  { categoria:'MORTADELAS Y JAMONES', nombre:'MORTADELA PRIMAVERA EN BARRA', foto:'imagenes/mtbr-009.webp', peso:'4 Kg≈', codigo:'MTBR-009', precio:43 },
+  { categoria:'MORTADELAS Y JAMONES', nombre:'MORTADELA CAZADOR EN BARRA', foto:'imagenes/mtbr-010.webp', peso:'3.5 Kg≈', codigo:'MTBR-010', precio:42 },
 
   // ==========================
   // MORTADELAS Y JAMONES SELLADOS
@@ -84,11 +84,11 @@ const productos = [
   { categoria:'TOCÍNO Y PASTA DE HÍGADO', nombre:'PASTA DE HÍGADO', foto:'imagenes/pst-001.webp', peso:'100 gr', codigo:'PST-001', precio:6 },
   { categoria:'TOCÍNO Y PASTA DE HÍGADO', nombre:'PASTA DE HÍGADO', foto:'imagenes/pst-002.webp', peso:'200 gr', codigo:'PST-002', precio:11 },
   { categoria:'TOCÍNO Y PASTA DE HÍGADO', nombre:'TOCINO AHUMADO CON COLOR', foto:'imagenes/tc-001.webp', peso:'100 gr | 5 unidades', codigo:'TC-001', precio:17 },
-  { categoria:'TOCÍNO Y PASTA DE HÍGADO', nombre:'TOCINO AHUMADO CON COLOR', foto:'imagenes/tc-002.webp', peso:'1 Kg | 50 unidades', codigo:'TC-002', precio:105 },
-  { categoria:'TOCÍNO Y PASTA DE HÍGADO', nombre:'TOCINO AHUMADO EN BARRA', foto:'imagenes/tc-003.webp', peso:'1 Kg', codigo:'TC-003', precio:0 },
-  { categoria:'TOCÍNO Y PASTA DE HÍGADO', nombre:'TOCINO AHUMADO NATURAL', foto:'imagenes/tc-004.webp', peso:'100 gr | 5 unidades', codigo:'TC-004', precio:0 },
-  { categoria:'TOCÍNO Y PASTA DE HÍGADO', nombre:'TOCINO AHUMADO NATURAL', foto:'imagenes/tc-005.webp', peso:'1 Kg | 50 unidades', codigo:'TC-005', precio:0 },
-  { categoria:'TOCÍNO Y PASTA DE HÍGADO', nombre:'TOCINO AHUMADO NATURAL', foto:'imagenes/tc-006.webp', peso:'1 Kg', codigo:'TC-006', precio:0 },
+  { categoria:'TOCÍNO Y PASTA DE HÍGADO', nombre:'TOCINO AHUMADO CON COLOR', foto:'imagenes/tc-002.webp', peso:'1 Kg | 50 unidades', codigo:'TC-002', precio:17 },
+  { categoria:'TOCÍNO Y PASTA DE HÍGADO', nombre:'TOCINO AHUMADO EN BARRA', foto:'imagenes/tc-003.webp', peso:'1 Kg≈', codigo:'TC-003', precio:17, precioPorKilo:true },
+  { categoria:'TOCÍNO Y PASTA DE HÍGADO', nombre:'TOCINO AHUMADO NATURAL', foto:'imagenes/tc-004.webp', peso:'100 gr | 5 unidades', codigo:'TC-004', precio:17 },
+  { categoria:'TOCÍNO Y PASTA DE HÍGADO', nombre:'TOCINO AHUMADO NATURAL', foto:'imagenes/tc-005.webp', peso:'1 Kg | 50 unidades', codigo:'TC-005', precio:17 },
+  { categoria:'TOCÍNO Y PASTA DE HÍGADO', nombre:'TOCINO AHUMADO NATURAL', foto:'imagenes/tc-006.webp', peso:'1 Kg≈', codigo:'TC-006', precio:17, precioPorKilo:true },
 ];
 
 const inicio = document.getElementById('inicio');
@@ -130,8 +130,11 @@ function mostrarProductosPorCategoria(catSeleccionada) {
       <img src="${prod.foto}" alt="${prod.nombre}">
       <h3>${prod.nombre}</h3>
       <p>${prod.peso}</p>
-      <p>Código: ${prod.codigo}</p>
-      <p>Precio: Bs ${prod.precio}</p>
+      
+      <p class="precio">
+  ${prod.precioPorKilo ? 'Precio por kilo: Bs ' : 'Precio: Bs '}
+  ${prod.precio}
+</p>
       <input type="number" min="1" placeholder="CANTIDAD" id="cantidad-${prod.codigo}">
       <button onclick="agregarAlCarrito('${prod.codigo}')">Agregar al carrito</button>
     `;
@@ -181,8 +184,8 @@ function actualizarCarrito() {
   let total = 0;
   carrito.forEach((item,index)=>{
     const li = document.createElement('li');
-    li.innerHTML = `<span>${item.codigo} - ${item.nombre} x${item.cantidad} Bs ${item.precio*item.cantidad}</span>
-    <button class="eliminar-item" onclick="eliminarProducto(${index})">X</button>`;
+    li.innerHTML = `<span>• ${item.nombre} x${item.cantidad} Bs ${item.precio*item.cantidad}</span>
+<button class="eliminar-item" onclick="eliminarProducto(${index})">X</button>`;
     itemsCarrito.appendChild(li);
     total += item.precio*item.cantidad;
   });
@@ -205,7 +208,7 @@ enviarPedido.addEventListener('click', ()=>{
   let mensaje = '*PEDIDO MANWIL*%0A%0A'; // %0A%0A = salto de línea doble
   
   carrito.forEach(item=>{
-    mensaje += `• ${item.codigo} - ${item.nombre} x${item.cantidad} Bs ${item.precio*item.cantidad}%0A`;
+    mensaje += `• ${item.nombre} x${item.cantidad} Bs ${item.precio*item.cantidad}%0A`;
   });
   
   mensaje += `%0ATotal: Bs ${totalCarrito.textContent}`; // línea separada para total

@@ -67,3 +67,45 @@ footer .redes-icons img:hover { transform:scale(1.1); }
         flex: unset;             /* Evita que se encojan */
     }
 }
+/* ==========================
+   Input CANTIDAD grande y vistoso
+========================== */
+.producto-card input[type="number"] {
+    width: 140px;                /* más ancho que por defecto */
+    padding: 10px 12px;          /* más espacio interno */
+    font-size: 16px;             /* texto más grande */
+    text-align: center;          /* centrado */
+    border-radius: 6px;          /* bordes redondeados */
+    border: 2px solid #e31b23;  /* borde rojo que resalta */
+    background-color: rgba(255,255,255,0.05);
+    color: #fff;
+    margin-top: 5px;
+    transition: all 0.3s ease;
+}
+
+.producto-card input[type="number"]:focus {
+    outline: none;
+    border-color: #ff4c4c;       /* cambia borde al enfocar */
+    background-color: rgba(255,255,255,0.1);
+    box-shadow: 0 0 8px rgba(255,76,76,0.7); /* efecto de resalte */
+}
+/* ==========================
+   Precio destacado en cuadro
+========================== */
+.producto-card p.precio {
+    background-color: #ffb52b;  /* color rojo para destacar */
+    color: #1f1f1f;                /* texto blanco */
+    font-weight: bold;          /* letras más gruesas */
+    padding: 8px 12px;          /* espacio interno */
+    border-radius: 6px;         /* esquinas redondeadas */
+    margin: 10px 0;             /* separación del resto del contenido */
+    display: inline-block;      /* que se ajuste al contenido */
+    font-size: 16px;            /* tamaño de letra */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3); /* sombra para resaltar */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.producto-card p.precio:hover {
+    transform: translateY(-2px) scale(1.05);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.4);
+}
