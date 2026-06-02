@@ -9,7 +9,7 @@ const productos = [
   { categoria:'SALCHICHAS', nombre:'SALCHICHA AHUMADA', foto:'imagenes/sal-001.webp', peso:'1-3.5 Kg | 18 Unid. por kilo | 12 cm', codigo:'SAL-001', precio:42 },
   { categoria:'SALCHICHAS', nombre:'SALCHICHA SIN PIEL AL VACIO', foto:'imagenes/sal-002.webp', peso:'1 Kg', codigo:'SAL-002', precio:45 },
   { categoria:'SALCHICHAS', nombre:'SALCHICHA SIN PIEL AL VACIO', foto:'imagenes/sal-003.webp', peso:'10 Unidades | 11 cm', codigo:'SAL-003', precio:18 },
-  { categoria:'SALCHICHAS', nombre:'SALCHICHA GRUESA', foto:'imagenes/sal-004.webp', peso:'1-3.5 Kg | 8 a 9 Unid. por kilo | 5 cm de grosor', codigo:'SAL-004', precio:39 },
+  { categoria:'SALCHICHAS', nombre:'SALCHICHA SALCHICHON', foto:'imagenes/sal-004.webp', peso:'1-3.5 Kg | 8 a 9 Unid. por kilo | 5 cm de grosor', codigo:'SAL-004', precio:39 },
   { categoria:'SALCHICHAS', nombre:'SALCHICHA SUPER ESPECIAL', foto:'imagenes/sal-005.webp', peso:'1-3.5 Kg | 18 Unid. por kilo | 17 cm', codigo:'SAL-005', precio:42 },
   { categoria:'SALCHICHAS', nombre:'SALCHICHA ESPECIAL CON PIEL PICADO', foto:'imagenes/sal-006.webp', peso:'3-5 Kg', codigo:'SAL-006', precio:40 },
   { categoria:'SALCHICHAS', nombre:'SALCHICHA COCTELERO SIN PIEL', foto:'imagenes/sal-007.webp', peso:'1/2 Kg | 40 Unid. | 3 cm', codigo:'SAL-007', precio:30 },
