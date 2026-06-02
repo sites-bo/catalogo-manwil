@@ -85,11 +85,11 @@ const productos = [
   { categoria:'TOCÍNO Y PASTA DE HÍGADO', nombre:'PASTA DE HÍGADO', foto:'imagenes/pst-001.webp', peso:'100 gr', codigo:'PST-001', precio:6 },
   { categoria:'TOCÍNO Y PASTA DE HÍGADO', nombre:'PASTA DE HÍGADO', foto:'imagenes/pst-002.webp', peso:'200 gr', codigo:'PST-002', precio:11 },
   { categoria:'TOCÍNO Y PASTA DE HÍGADO', nombre:'TOCINO AHUMADO CON COLOR', foto:'imagenes/tc-001.webp', peso:'100 gr | 5 unidades', codigo:'TC-001', precio:17 },
-  { categoria:'TOCÍNO Y PASTA DE HÍGADO', nombre:'TOCINO AHUMADO CON COLOR', foto:'imagenes/tc-002.webp', peso:'1 Kg | 50 unidades', codigo:'TC-002', precio:17 },
-  { categoria:'TOCÍNO Y PASTA DE HÍGADO', nombre:'TOCINO AHUMADO EN BARRA', foto:'imagenes/tc-003.webp', peso:'1 Kg≈', codigo:'TC-003', precio:17, precioPorKilo:true },
+  { categoria:'TOCÍNO Y PASTA DE HÍGADO', nombre:'TOCINO AHUMADO CON COLOR', foto:'imagenes/tc-002.webp', peso:'1 Kg | 50 unidades', codigo:'TC-002', precio:100 },
+  { categoria:'TOCÍNO Y PASTA DE HÍGADO', nombre:'TOCINO AHUMADO EN BARRA', foto:'imagenes/tc-003.webp', peso:'1 Kg≈', codigo:'TC-003', precio:100, precioPorKilo:true },
   { categoria:'TOCÍNO Y PASTA DE HÍGADO', nombre:'TOCINO AHUMADO NATURAL', foto:'imagenes/tc-004.webp', peso:'100 gr | 5 unidades', codigo:'TC-004', precio:17 },
-  { categoria:'TOCÍNO Y PASTA DE HÍGADO', nombre:'TOCINO AHUMADO NATURAL', foto:'imagenes/tc-005.webp', peso:'1 Kg | 50 unidades', codigo:'TC-005', precio:17 },
-  { categoria:'TOCÍNO Y PASTA DE HÍGADO', nombre:'TOCINO AHUMADO NATURAL', foto:'imagenes/tc-006.webp', peso:'1 Kg≈', codigo:'TC-006', precio:17, precioPorKilo:true },
+  { categoria:'TOCÍNO Y PASTA DE HÍGADO', nombre:'TOCINO AHUMADO NATURAL', foto:'imagenes/tc-005.webp', peso:'1 Kg | 50 unidades', codigo:'TC-005', precio:100 },
+  { categoria:'TOCÍNO Y PASTA DE HÍGADO', nombre:'TOCINO AHUMADO NATURAL', foto:'imagenes/tc-006.webp', peso:'1 Kg≈', codigo:'TC-006', precio:100, precioPorKilo:true },
 ];
 
 const inicio = document.getElementById('inicio');
