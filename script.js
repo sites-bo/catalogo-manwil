@@ -39,6 +39,7 @@ const productos = [
   { categoria:'CHORIZOS', nombre:'CHORIZO CHUQUISAQUEÑO', foto:'imagenes/ch-015.webp', peso:'1/2 Kg | 11-12 Unidades | 21 cm', codigo:'CH-015', precio:35 },
   { categoria:'CHORIZOS', nombre:'CHORIZO FRESCO DE CERDO PARRILLERO DELGADO', foto:'imagenes/ch-016.webp', peso:'3-5 Kg | 10-11 Unidades | 12 cm', codigo:'CH-016', precio:43 },
   { categoria:'CHORIZOS', nombre:'CHORIZO TIPO ARGENTINO', foto:'imagenes/ch-017.webp', peso:'1-3.5 Kg | 10-11 Unid.', codigo:'CH-017', precio:43 },
+  { categoria:'CHORIZOS', nombre:'CHORIZO FRESCO CRIOLLO PARRILLERO DE CERDO', foto:'imagenes/ch-018.webp', peso:'3-5 Kg | 14 Unidades | 12 cm', codigo:'CH-018', precio:43 },
 
   // ==========================
   // MORTADELAS Y JAMONES
